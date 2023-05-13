@@ -8,10 +8,10 @@ A sample Ktor project showing how to run a Ktor application consisting of a web 
 To run this application under Docker Compose, follow the steps below:
 1. Create a fat JAR containing a Ktor application:
    ```Bash
-    ./gradlew :tutorial-website-interactive-docker-compose:buildFatJar
+    ./gradlew :twwdataapp:buildFatJar
    ```
 2. Run the `docker-compose up` command:
    ```Bash
-   docker compose --project-directory snippets/tutorial-website-interactive-docker-compose up
+   docker compose --project-directory twwdataapp up
    ```
    Wait until Docker Compose pulls/builds the images and starts containers.
